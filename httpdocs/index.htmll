@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Feel the music and feel at HOME, It's Fruzitime!</title>
+        <meta property="og:title" content="Fruzitime Radio">
+        <meta property="og:type" content="music.radio_station">
+        <meta property="og:url" content="http://fruzitimeradio.com">
+        <meta property="og:site_name" content="Fruzitime Radio!">
+        <meta property="og:description" content="This is a place where you&#39;ll feel at home, no matter where you are in the world.">
+        <meta property="og:image" content="//fruzitimeradio.com/images/cache/5a2495189c29cb1db3ed852a180f8914_w450_h260_cp.jpg"/>
+		<meta property= "og:site_name" content="Fruzitime"/>
+		<meta property= "og:audio" content= "http://stream.radiojar.com/a2k0drrmb"
+		<meta property="fb:app_id" content="172628652844755"/>
+		<meta name="twitter:card" content="summary"/>
+		<meta name="twitter:image" content="//fruzitimeradio.com/images/Fotolia_19623121_Subscription_XXL-940x529.jpg" />
+        <meta name="twitter:site" content="@fruzitime" />
+		<meta name="HandheldFriendly" content="true"/>
+		<meta name="apple-mobile-web-app-capable" content="YES"/>
+		<meta name="apple-itunes-app" content="app-id=705093270">
+		<meta name="google-play-app" content="app-id=nl.radio.fruzitime">
+		<META name="ROBOTS" CONTENT="index,follow">
+		<meta name="distribution" content="global" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="http://radiojar.com/wrappers/api-plugins/v1/css/current-show.css">
+		<link rel="stylesheet" href="http://www.radiojar.com/wrappers/api-plugins/v1/css/schedule.css">
+		<link rel="stylesheet" href="//fruzitime-radio.radiojar.com/default/css/sites.css" />
+		<link rel="stylesheet" href="//fruzitime-radio.radiojar.com/default/css/custom.css"/> 
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+		<link rel="dns-prefetch" href="//fruzitime-radio.radiojar.com">
+		<link rel="dns-prefetch" href="//radiojar-lib.appspot.com">
+		<link rel="dns-prefetch" href="//fruzitime-radio.radiojar.com">
+
+        <style>
+            
+            html {
+                background-image: url('//fruzitimeradio.com/images/slide-2.jpg');
+            }
+            
+
+            /*@bg_color_hex:   #6b5d56;
+             @bg_color_rgb:   107,93,86;
+             @main_color_hex: #f04e29;
+             @main_color_rgb: 240,78,41;
+             @text_color_hex: #fff;
+             @text_color_rgb: 255,255,255;
+
+             107, 93, 86
+             255, 255, 255
+             #f04e29
+             #6b5d56
+             #ffffff
+             cover
+             */
+
+            
+            /* if background is set to cover-stretch */
+            html {
+                background-repeat: no-repeat !important;
+                background-attachment: fixed !important;
+                background-position: center !important;
+                -webkit-background-size: cover !important;
+                -moz-background-size: cover !important;
+                -o-background-size: cover !important;
+                background-size: cover !important;
+            }
+            
+
+            .container-full, .copyright {
+                background: rgba(107, 93, 86, 0.7);
+            }
+            .jp-play, .jp-pause, .jp-volume-bar {
+                background-color: #f04e29;
+            }
+            .rj-player-controls a {
+                color: #ffffff;
+            }
+            .jp-volume-bar-value {
+                background-color: #ffffff;
+            }
+            .jp-volume-controls a {
+                background-color: #6b5d56;
+                color: #ffffff;
+            }
+            .element .element-label {
+                color: rgba(255, 255, 255, 0.8);
+            }
+            .element .show {
+                color: #ffffff;
+            }
+            .rj-cover {
+                border-color: #6b5d56;
+            }
+            .element-track-current .artist, .element-track-recent .artist {
+                color: #ffffff;
+            }
+            .element-track-current .track, .element-track-recent .track {
+                color: #ffffff;
+            }
+            .element-brand .element-brand-name {
+                color: #f04e29;
+            }
+            .element-brand .element-brand-tagline {
+                color: #ffffff;
+            }
+            .element-share .link, .element-share .box {
+                background: rgba(107, 93, 86, 0.7);
+                color: rgba(255, 255, 255, 0.5);
+            }
+            .element-share .link .count, .element-share .box .count, .element-share .link .share, .element-share .box .share {
+                color: rgba(255, 255, 255, 0.5);
+            }
+            .element-share .link .count, .element-share .box .count {
+                border-color: rgba(255, 255, 255, 0.1);
+            }
+            .element-share .element-share-divider {
+                border-color: rgba(255, 255, 255, 0.1);
+            }
+            .element-track-current .artist, .element-track-recent .artist {
+                color: #ffffff;
+            }
+            .element-track-current .track, .element-track-recent .track {
+                color: #f04e29;
+            }
+            .element-track-current .album, .element-track-recent .album {
+                color: #ffffff;
+            }
+            .element-show-current .wrapper {
+                background: rgba(107, 93, 86, 0.4);
+            }
+            .element-show-current .rjp-show-title {
+                color: #f04e29;
+            }
+            .element-track-recent {
+                background: rgba(107, 93, 86, 0.6);
+            }
+            .element-show-current .host-label, .element-show-current .rjp-show-host {
+                color: #ffffff;
+            }
+            .element-player {
+                height: 200px;
+                margin-bottom: 10px;
+            }
+            .icon-volume-off {
+                padding-right:9px;
+            }
+            .jp-volume-controls a {
+                top: 140px;
+                left: 20px;
+            }
+            .jp-volume-bar-wrapper {
+                left: 45px;
+                top: 150px;
+            }
+            .jp-volume-bar-wrapper .jp-volume-bar {
+                display: none;
+                position: relative;
+                height: 30px;
+                width: 90px;
+                padding: 0 0 0 0;
+                background-color: #6b5d56;
+
+            }
+            .jp-volume-bar-value {
+                position: absolute;
+                pointer-events:none;
+                border-radius: 5px;
+                background-color: #ffffff;
+                display: block;
+                padding:  5px 5px 10px 5px;
+                width: 100%;
+                max-width: 80px;
+                margin-top: 7px;
+                margin-left: 5px;
+                z-index: 20;
+            }
+        </style>
+		<script charset="UTF-8" src="//cdn.sendpulse.com/js/push/7e6b8b4ad9bb77b8b0412c1e0b6a264d_0.js" async></script>
+		<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1760207720901101');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1760207720901101&ev=PageView&noscript=1"
+/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+	</head>
+    <body>
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/nl_NL/sdk.js#xfbml=1&version=v2.7&appId=172628652844755";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+        <div class="container container-full">
+            <div class="row">
+                <div class="element element-brand">
+                    <div class="element-brand-container">
+                        <img class="element-brand-thumb" src="http://www.radiojar.com/content/stations/ag1zfnJhZGlvamFyY29tcjILEgpBdXRoQ2xpZW50GICAwKjGn_UKDAsSDlN0YXRpb25Qcm9maWxlGICAgICA5JEKDKIBA2Rldg/image/?lu=Wed Aug 10 00:05:32 UTC+0000 2016" alt="Fruzitime Radio">
+                        <div class="element-brand-text">
+                            <h1 class="element-brand-name"> Fruzitime Radio <small class="element-brand-tagline">Dutch Caribbean Interactive Station!</small></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="element element-share">
+
+                    <div class="row">
+                       <div class="element-share-divider">
+                            <hr>
+                        </div>
+                        
+                            <div class="wrapper">
+                                <!-- Go to www.addthis.com/dashboard to customize your tools -->
+							<div class="addthis_responsive_sharing"></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="element element-show-current" style="display: none; background-image: url('http://www.radiojar.com/content/shows/ag1zfnJhZGlvamFyY29tci8LEgpBdXRoQ2xpZW50GICAgICAyKMKDAsSC1Nob3dQcm9maWxlGICAgICA7JoKDKIBA2Rldg/cover/?updated=Tue Sep 10 19:01:00 UTC+0000 2013')">
+                    <div class="wrapper">
+                        <h4 class="element-label"><i class="icon-microphone"></i> On air</h4>
+                        <div class="show">
+                            <div class="rjp-show-title-container">
+                                <span class="rjp-show-title" id="show-title"></span>
+                            </div>
+                            <ul class="rjp-show-hosts" id="host-info"></ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="element element-player">
+
+                    <div id="rj-player">
+                        <div class="rjp-player-container">
+                            <div id="rjp-radiojar-player"></div>
+                            <div id="rj-player-controls" class="rj-player-controls">
+                                <div class="jp-gui jp-interface">
+                                    <div class="jp-controls">
+									
+                                        <a href="javascript:;" style="display:block" class="jp-play" title="Play">&nbsp;<i class="icon-play"></i></a>
+                                        <a href="javascript:;" style="display:none" class="jp-pause" title="Pause"><i class="icon-pause"></i></a>
+										
+
+                                        <div class="jp-volume-controls">
+                                            <a href="javascript:;" style="display:block" class="jp-mute"  title="Mute"><i class="icon-volume-up"></i></a>
+                                            <a href="javascript:;" style="display:none" class="jp-unmute" title="Unmute"><i class="icon-volume-off"></i></a>
+											
+												<div class="jp-volume-bar-wrapper">
+                                                <div class="jp-volume-bar-value"></div>
+                                                <div class="jp-volume-bar"></div>
+												</div>
+										</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jp-no-solution">
+                                <span>Update Required</span>
+                                To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element element-track-current hide">
+                    <h4 class="element-label rj-now-label" style="display:none"><i class="icon-music"></i>Now playing on Fruzitime</h4>
+                    <div id="rj-cover" class="rj-cover" style="display: none">
+                        <a href="#"><img src="" class="img-responsive" /></a>
+                    </div>
+                    <div class="rj-trackinfo" id="rj-trackinfo">
+                        <span id="trackInfo" class="rjp-info"></span>
+                    </div>
+                </div>
+                <div class="element element-track-recent hide">
+                    <h4 class="element-label"><i class="icon-time"></i>Recently played tracks</h4>
+                    <ul id="track_list"></ul>
+                </div>
+				<div class="row">
+                <div class="fb-comments" data-href="http://fruzitimeradio.com/" data-width="600" data-numposts="5" data-colorscheme="dark"></div>
+            </div>
+			
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script type="text/javascript" src="http://www.radiojar.com/wrappers/api-plugins/v1/radiojar-min.js"></script>
+        
+		
+        <script>
+
+            function onMouseOver() {
+                $('.jp-volume-bar-wrapper').css('display', 'block');
+                $('.jp-volume-bar').css('display', 'block');
+
+                $('.jp-mute').css('padding-right', '55px');
+                $('.jp-mute').css('z-index', '1');
+                $('.jp-unmute').css('padding-right', '55px');
+                $('.jp-unmute').css('z-index', '1');
+
+                $('.jp-volume-controls').css('z-index', '1');
+                $('.jp-volume-controls a').css('padding-left', '6px');
+            }
+
+            function onMouseLeave() {
+                $('.jp-volume-bar-wrapper').css('display', 'none');
+                $('.jp-volume-bar').css('display', 'block');
+
+                $('.jp-mute').css('padding-right', '0');
+                $('.jp-mute').css('z-index', '0');
+                $('.jp-unmute').css('padding-right', '0');
+                $('.jp-unmute').css('z-index', '0');
+
+                $('.jp-volume-controls').css('z-index', '0');
+                $('.jp-volume-controls a').css('padding-left', '0');
+            }
+
+            $('.jp-volume-controls').mouseover(onMouseOver);
+            $('.jp-volume-controls').mouseleave(onMouseLeave);
+
+
+        </script>
+        <script>
+            // Fix Share buttons:
+            var station_service_type = "47";
+            var previous_tracks = "10";
+            var station_key = "ag1zfnJhZGlvamFyY29tcjILEgpBdXRoQ2xpZW50GICAwKjGn_UKDAsSDlN0YXRpb25Qcm9maWxlGICAgICA5JEKDKIBA2Rldg";
+            var streamname = "a2k0drrmb";
+			var autoplay = ("True" == "True");
+            var showTracks = "True"
+			var enableUpdates = (showTracks == "True");
+            var showAlbum = "True";
+            var upcomingInterval;
+            var schedulesInterval;
+            var stationSchedules;
+			var currentShow;
+            var baseUrl = "www.radiojar.com";
+
+            RJP.trackHistory = [];
+            RJP.nowPlayingSong = "";
+            if (showTracks == "True") {
+                $('.element-track-current').removeClass('hide');
+                if (previous_tracks != 0) {
+                    var track_lis = "";
+                    for (var i = 0; i < previous_tracks; i++) {
+                        track_lis += "<li class='track' data-id='" + i + "'><span class='artist'></span><span class='name'></span></li>"
+                    }
+                    $('#track_list').append(track_lis);
+                    rjq('.element-track-recent').radiojar('recentTracks', {
+                        streamName : streamname,
+                        trackCount : previous_tracks, //number of tracks to show
+                    });
+                    rjq('.element-track-recent').off('rj-recent-tracks-event');
+                    rjq('.element-track-recent').on('rj-recent-tracks-event', function(event, data) {
+                        RJP.trackHistory = data;
+                        updateRecentTracks(data);
+                        $('.element-track-recent').removeClass('hide');
+                    });
+
+                }
+            }
+            if (((station_service_type & 2) == 2)) {
+                clearInterval(upcomingInterval);
+                clearInterval(schedulesInterval);
+                getSchedules();
+                schedulesInterval = setInterval(function() {// get schedules every 30 minutes
+                    getSchedules();
+                }, 1800000);
+
+                upcomingInterval = setInterval(function() {// update upcoming json every minute
+                    findCurrentSchedule(stationSchedules);
+                }, 60000);
+            }
+            var parentURL = "http://fruzitime-radio.radiojar.com";
+            if (window.top === window) {
+                parentURL = top.location.toString().toLowerCase();
+            } else {
+                parentURL = document.referrer;
+            }
+            $(".share-item-facebook").attr('data-url', parentURL);
+            $(".share-item-twitter").attr('data-url', parentURL);
+            $(".share-item-gplus").attr('data-url', parentURL);
+            $("meta[property='og\\:url']").attr("content", parentURL);
+
+            var bgColor = "107, 93, 86";
+            var lightness = (0.213 * parseInt(bgColor.split(',')[0]) + 0.715 * parseInt(bgColor.split(',')[1]) + 0.072 * parseInt(bgColor.split(',')[2]));
+            var logoSource = lightness < 115 ? '/default/images/radiojar_logo_light.png' : '/default/images/radiojar_logo_dark.png';
+            var logoClass = lightness < 115 ? 'logo-light' : 'logo-dark';
+            var logoaepiSource = lightness < 115 ? '/default/images/aepi_logo_light.png' : '/default/images/aepi_logo_dark.png';
+            var logogeaSource = lightness < 115 ? '/default/images/gea_logo_light.png' : '/default/images/gea_logo_dark.png';
+            var defaultImage = "http://www.klazinamedia.com/logo.png";
+
+            $('#radiojar_logo').attr('src', logoSource);
+            $('#aepi_logo').attr('src', logoaepiSource);
+            $('#gea_logo').attr('src', logogeaSource);
+            $('.element-radiojar').addClass(logoClass);
+            $('.copyright').addClass(logoClass);
+
+            
+            rjq('#rjp-radiojar-player').radiojar('player', {
+                "streamName" : "a2k0drrmb",
+                "enableUpdates" : enableUpdates,
+                "defaultImage" : defaultImage,
+                "autoplay" : autoplay
+            });
+            
+ 			if (showTracks == "True") {
+            rjq('#rjp-radiojar-player').off('rj-track-load-event');
+            rjq('#rjp-radiojar-player').on('rj-track-load-event', function(event, data) {
+	
+                updateInfo(data);
+                if (data.title != "" || data.artist != "") {
+                    var track = {
+                        "artist" : data.artist,
+                        "track" : data.title,
+                        "album" : data.album,
+                        "thumb" : data.thumb
+                    };				
+                    if (RJP.nowPlayingSong != "") {
+
+                        var found = false;
+
+                        RJP.trackHistory.forEach(function(track){
+
+                            if (typeof(track) == 'undefined') return;
+                            else if (track == RJP.nowPlayingSong) found = true;
+
+
+                        });
+
+                        if (!found) {
+                            RJP.trackHistory.unshift(RJP.nowPlayingSong);
+                            if (RJP.trackHistory.length >= 5) RJP.trackHistory.pop();
+                        }
+                        updateRecentTracks(RJP.trackHistory);
+                    }
+                    if (showTracks == "True") {
+                        rjq('.element-track-current').removeClass('hide');
+                    }
+
+                    RJP.nowPlayingSong = track;
+
+                    var artist = data.artist;
+                    var title = data.title;
+                    var album = data.album;
+                    if (artist == null) {
+                        if (title.indexOf(" - ")>0) {
+                            artist = title.split(" - ")[0];
+                            try {
+                               title = title.split(" - ")[1];
+                            } catch (e) {
+                                artist = data.artist;
+                                title = data.title;
+                            }
+                        }
+                    }
+                    rjq('#trackInfo').html('<span class="artist">' + artist + '</span> <span class="track">' + title.replace('.mp3', '') + '</span>')
+                    if (showAlbum == "True" && album!= null){
+                        rjq('#trackInfo').html(rjq('#trackInfo').html() + '<span class="album">' + album + '</span>')                        
+                    }
+                } else {
+
+                    rjq('.element-track-current').addClass('hide');
+                    rjq('.element-show-current').hide();
+                }
+            });
+}
+            function getSchedules() {
+                $.ajax({
+                    url : "http://" + baseUrl + "/api/stations/ag1zfnJhZGlvamFyY29tcjILEgpBdXRoQ2xpZW50GICAwKjGn_UKDAsSDlN0YXRpb25Qcm9maWxlGICAgICA5JEKDKIBA2Rldg/schedules/",
+                    type : 'GET',
+                    dataType : 'json',
+                    async : true,
+                    success : function(data) {
+                        stationSchedules = data;
+                        findCurrentSchedule(data);
+                    },
+                    error : function(xhr, ajaxOptions, thrownError) {
+
+                    }
+                });
+            }
+
+            function renderCurrentShow(show) {
+                $('.element-show-current').attr('style', 'display:block;background-image: url("http://' + baseUrl + '/content/shows/' + show.key + '/cover/")');
+                $('#show-title').html(show.title);
+                $('#host-info').empty();
+                if (show.host_profiles.length > 0) {
+                    $('#host-info').append('<li class="host-label">with:</li>');
+                }
+                for (x in show.host_profiles) {
+                    $('.host-label').after('<li class="rjp-show-host"><img class="rjp-show-host-thumb" src="http://' + baseUrl + '/content/users/' + show.host_profiles[x].id + '/image/?resize=small"> ' + show.host_profiles[x].dj_info.nickname + ' </li>');
+                }
+            }
+
+            function getShow(key) {
+				if((typeof(currentShow)!='undefined') && currentShow.key == key){
+					
+				}else{
+					 $.ajax({
+                    url : "http://" + baseUrl + "/api/shows/" + key + "?include=hosts",
+                    type : 'GET',
+                    dataType : 'json',
+                    async : true,
+                    success : function(data) {
+						currentShow = data;
+                        renderCurrentShow(data);
+                    },
+                    error : function(xhr, ajaxOptions, thrownError) {
+
+                    }
+                });
+				}
+               
+            }
+
+            function findCurrentSchedule(events) {
+                var foundCurrentShow = false;
+                if (events) {
+                    for (var i = 0; i < events.length; i++) {
+                        if (events[i].show != null) {
+                            var startDate = new Date(events[i].start_date);
+                            var endDate = new Date(events[i].start_date);
+                            (endDate).setMinutes((endDate).getMinutes() + (events[i].duration / 60));
+                            var repeatType = events[i].repeat_type;
+                            if (repeatType == 1) {
+                                var state = getShowState(startDate, endDate);
+                                if (state == "is_now") {
+                                    foundCurrentShow = true;
+                                    getShow(events[i].show);
+                                }
+                            } else {
+                                var endingRepeat = new Date(events[i].repeat_ends_on);
+                                var today = new Date();
+                                if (today.getTime() >= startDate.getTime() && today.getTime() < endingRepeat.getTime()) {
+                                    var weekDayToday = today.getDay();
+                                    if (repeatType == 2 || (repeatType == 3 && weekDayToday == startDate.getDay()) || (repeatType == 4 && [6, 0].indexOf(weekDayToday) >= 0) || (repeatType == 5 && [5, 1, 2, 3, 4].indexOf(weekDayToday) >= 0)) {
+                                        var todayStartDate = new Date();
+                                        todayStartDate.setHours(startDate.getHours());
+                                        todayStartDate.setMinutes(startDate.getMinutes());
+                                        todayStartDate.setSeconds(0);
+                                        var todayEndDate = new Date();
+                                        todayEndDate.setHours(endDate.getHours());
+                                        todayEndDate.setMinutes(endDate.getMinutes());
+                                        todayEndDate.setSeconds(0);
+                                        var repeating_events_state = getShowState(todayStartDate, todayEndDate);
+                                        if (repeating_events_state == "is_now") {
+                                            foundCurrentShow = true;
+                                            getShow(events[i].show);
+                                        }
+                                    }
+                                }
+
+                            }
+
+                        }
+                    }
+                }
+                if (!foundCurrentShow) {
+                    $('.element-show-current').attr('style', 'display:none;');
+                }
+            }
+
+            function getShowState(startIn, endIn) {
+                var state = "";
+                var start = new Date(startIn);
+                var end = new Date(endIn);
+                var now = new Date();
+                if (now.getTime() < start.getTime()) {
+                    state = "future";
+                } else if (now.getTime() > end.getTime()) {
+                    state = "past";
+                } else if ((now.getTime() >= start.getTime()) && (now.getTime() <= end.getTime())) {
+                    state = "is_now";
+                }
+                return state;
+            }
+
+            function updateRecentTracks(tracks) {
+                rjq('#track_list').show();
+                for (var i = 0; i < tracks.length; i++) {
+
+                    if (typeof(tracks[i]) == 'undefined') break;
+
+                    artist = tracks[i].artist;
+                    track = tracks[i].track;
+                    if (tracks[i].artist == null) {
+                        if (tracks[i].track.indexOf(" - ") > 0) {
+                            artist = tracks[i].track.split(" - ")[0];
+                            try {
+                                track = tracks[i].track.split(" - ")[1];
+                            } catch (e) {
+                                artist = null
+                                track = tracks[i].track
+                            }
+                        }
+                    }
+                    rjq('.track[data-id=' + i + ']').find('.artist').html(artist);
+                    rjq('.track[data-id=' + i + ']').find('.name').html(track);
+                }
+            }
+
+            function updateInfo(data) {
+                rjq('.rj-now-label').show();
+                rjq('#rj-cover').show();
+                if (data.thumb && data.thumb != defaultImage) {
+                    rjq('#rj-cover').html('<a><img src="' + data.thumb + '" alt="" title="" /></a>');
+                } else {
+                    rjq('#rj-cover').html('<a><img src="' + defaultImage + '" alt="" title="" /></a>');
+                    if (data.artist != "" && data.title != "") {
+                        var searchString = data.title + ' ' + data.artist;
+                        searchString = searchString.replace('Unknown', '').replace('.mp3', '');
+                        // $.ajax({
+                        // url : "https://gdata.youtube.com/feeds/api/videos?&max-results=1&alt=json&v=1&orderby=viewCount&q=" + searchString,
+                        // success : function(data) {
+                        // try {
+                        // rjq('#rj-cover').html('<a><img src="' + data.feed.entry[0].media$group.media$thumbnail[0].url + '" alt="" title="" /></a>');
+                        // } catch (err) {
+                        // rjq('#rj-cover').html('<a><img src="' + defaultImage + '" alt="" title="" /></a>');
+                        // }
+                        //
+                        // },
+                        // async : true,
+                        // dataType : 'json',
+                        // });
+                    } else {
+                        rjq('#rj-cover').html('<a><img src="' + defaultImage + '" alt="" title="" /></a>');
+                    }
+                }
+            }
+        </script>
+	
+		<script>
+   rjq('#rjp-chat').radiojar('chatProvider', {
+       streamname: "a2k0drrmb",
+       width: 600,              // width of chat container in pixels (default is 700 pixels)
+       height:300,              // height of chat container in pixels (default is 900 pixels)
+       frameborder:false,       // show frameborder or not (default is false) 
+       scrolling:"auto",        // yes, no, auto (default is no)
+       cssfile:""               // your own custom css file url
+   });
+</script>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57addaaa217f1273"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2123391-11', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Responsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6660743621433969"
+     data-ad-slot="8217839685"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6660743621433969",
+    enable_page_level_ads: true
+  });
+</script>
+
+                <div class="element element-radiojar">
+                    Copyright &#169; 2016 Fruzitime Radio. All Rights Reserved.
+					<script>(function(w,d,s){w._uptime_rum={};w._uptime_rum.uuid='1CZ1-FF1D59AF17DFAD5F';w._uptime_rum.url='https://uptime.com/rum/record-data';s=document.createElement('script');s.async=1;s.src='https://uptime.com/static/rum/compiled/rum.js';d.getElementsByTagName('head')[0].appendChild(s);})(window,document);</script>
+                </div>
+				<!-- Hotjar Tracking Code for http://fruzitimeradio.com/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:214603,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+</body>
+</html>

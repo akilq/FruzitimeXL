@@ -1,0 +1,74 @@
+.container-full {
+  background: rgba(107, 93, 86, 0.4);
+}
+.jp-play,
+.jp-pause,
+.jp-volume-bar {
+  background-color: #f04e29;
+}
+.rj-player-controls a {
+  color: #ffffff;
+}
+.jp-volume-bar-value {
+  background-color: #ffffff;
+}
+.jp-volume-controls a {
+  background-color: #6b5d56;
+  color: #ffffff;
+}
+.element .element-label {
+  color: rgba(255, 255, 255, 0.8);
+}
+.element .show {
+  color: #ffffff;
+}
+.element-track-current .artist,
+.element-track-recent .artist {
+  color: #ffffff;
+}
+.element-track-current .track,
+.element-track-recent .track {
+  color: #ffffff;
+}
+.element-brand .element-brand-name {
+  color: #f10061;
+}
+.element-brand .element-brand-tagline {
+  color: #ffffff;
+}
+.element-share .link,
+.element-share .box {
+  background: rgba(107, 93, 86, 0.7);
+  color: rgba(255, 255, 255, 0.5);
+}
+.element-share .link .count,
+.element-share .box .count,
+.element-share .link .share,
+.element-share .box .share {
+  color: rgba(255, 255, 255, 0.5);
+}
+.element-share .link .count,
+.element-share .box .count {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+.element-share .element-share-divider {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+.element-track-current .artist,
+.element-track-recent .artist {
+  color: #ffffff;
+}
+.element-track-current .track,
+.element-track-recent .track {
+  color: #f04e29;
+}
+.element-show-current .wrapper {
+  background: rgba(107, 93, 86, 0.4);
+}
+.element-show-current .rjp-show-title {
+  color: #f04e29;
+}
+.element-show-current .host-label,
+.element-show-current .rjp-show-host {
+  color: #ffffff;
+}

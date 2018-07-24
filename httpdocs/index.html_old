@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Feel the music and feel at HOME, It's Fruzitime!</title>
+    <meta property="og:title" content="Fruzitime Radio">
+    <meta property="og:type" content="music.radio_station">
+    <meta property="og:url" content="http://fruzitimeradio.com">
+    <meta property="og:site_name" content="Fruzitime Radio!">
+    <meta property="og:description" content="This is a place where you&#39;ll feel at home, no matter where you are in the world!">
+    <meta property="og:image" content="//fruzitimeradio.com/images/cache/5a2495189c29cb1db3ed852a180f8914_w450_h260_cp.jpg" />
+    <meta property="og:site_name" content="Fruzitime Radio" />
+    <meta property="og:audio" content="https://eu9.fastcast4u.com/proxy/klazinam?mp=/1" />
+    <meta property="fb:app_id" content="172628652844755" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:image" content="//fruzitimeradio.com/images/Fotolia_19623121_Subscription_XXL-940x529.jpg" />
+    <meta name="twitter:site" content="@fruzitime" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="apple-mobile-web-app-capable" content="YES" />
+    <meta name="apple-itunes-app" content="app-id=1223963877">
+    <meta name="google-play-app" content="com.nobexinc.wls_4260287077">
+    <META name="ROBOTS" CONTENT="index,follow">
+    <meta name="distribution" content="global" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//fruzitimeradio.com/css/sites.css" />
+    <link rel="stylesheet" href="//fruzitimeradio.com/css/resp.css" />
+    <link rel="stylesheet" href="//fruzitimeradio.com/css/customs.css" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="fav.png" type="image/png">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script charset="UTF-8" src="//cdn.sendpulse.com/9dae6d62c816560a842268bde2cd317d/js/push/7b0b6f2c323fdbfc882728b475f6a3b4_1.js" async></script>
+
+    <!--
+    <style>
+        html {
+            background-image: url('//fruzitimeradio.com/images/slide-2.jpg');
+        }
+        /*@bg_color_hex:   #6b5d56;
+             @bg_color_rgb:   107,93,86;
+             @main_color_hex: #f04e29;
+             @main_color_rgb: 240,78,41;
+             @text_color_hex: #fff;
+             @text_color_rgb: 255,255,255;
+
+             107, 93, 86
+             255, 255, 255
+             #f04e29
+             #6b5d56
+             #ffffff
+             cover
+             */
+        /* if background is set to cover-stretched */
+        
+        html {
+            background-repeat: no-repeat !important;
+            background-attachment: fixed !important;
+            background-position: center !important;
+            -webkit-background-size: cover !important;
+            -moz-background-size: cover !important;
+            -o-background-size: cover !important;
+            background-size: cover !important;
+        }
+        
+        .container-full,
+        .copyright {
+            background: rgba(107, 93, 86, 0.7);
+        }
+        
+        .jp-play,
+        .jp-pause,
+        .jp-volume-bar {
+            background-color: #f04e29;
+        }
+        
+        .rj-player-controls a {
+            color: #ffffff;
+        }
+        
+        .jp-volume-bar-value {
+            background-color: #ffffff;
+        }
+        
+        .jp-volume-controls a {
+            background-color: #6b5d56;
+            color: #ffffff;
+        }
+        
+        .element .element-label {
+            color: rgba(255, 255, 255, 0.8);
+        }
+        
+        .element .show {
+            color: #ffffff;
+        }
+        
+        .rj-cover {
+            border-color: #6b5d56;
+        }
+        
+        .element-track-current .artist,
+        .element-track-recent .artist {
+            color: #ffffff;
+        }
+        
+        .element-track-current .track,
+        .element-track-recent .track {
+            color: #ffffff;
+        }
+        
+        .element-brand .element-brand-name {
+            color: #f04e29;
+        }
+        
+        .element-brand .element-brand-tagline {
+            color: #ffffff;
+        }
+        
+        .element-share .link,
+        .element-share .box {
+            background: rgba(107, 93, 86, 0.7);
+            color: rgba(255, 255, 255, 0.5);
+        }
+        
+        .element-share .link .count,
+        .element-share .box .count,
+        .element-share .link .share,
+        .element-share .box .share {
+            color: rgba(255, 255, 255, 0.5);
+        }
+        
+        .element-share .link .count,
+        .element-share .box .count {
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+        
+        .element-share .element-share-divider {
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+        
+        .element-track-current .artist,
+        .element-track-recent .artist {
+            color: #ffffff;
+        }
+        
+        .element-track-current .track,
+        .element-track-recent .track {
+            color: #f04e29;
+        }
+        
+        .element-track-current .album,
+        .element-track-recent .album {
+            color: #ffffff;
+        }
+        
+        .element-show-current .wrapper {
+            background: rgba(107, 93, 86, 0.4);
+        }
+        
+        .element-show-current .rjp-show-title {
+            color: #f04e29;
+        }
+        
+        .element-track-recent {
+            background: rgba(107, 93, 86, 0.6);
+        }
+        
+        .element-show-current .host-label,
+        .element-show-current .rjp-show-host {
+            color: #ffffff;
+        }
+        
+        .element-player {
+            height: 200px;
+            margin-bottom: 10px;
+        }
+        
+        .icon-volume-off {
+            padding-right: 9px;
+        }
+        
+        .jp-volume-controls a {
+            top: 140px;
+            left: 20px;
+        }
+        
+        .jp-volume-bar-wrapper {
+            left: 45px;
+            top: 150px;
+        }
+        
+        .jp-volume-bar-wrapper .jp-volume-bar {
+            display: none;
+            position: relative;
+            height: 30px;
+            width: 90px;
+            padding: 0 0 0 0;
+            background-color: #6b5d56;
+        }
+        
+        .jp-volume-bar-value {
+            position: absolute;
+            pointer-events: none;
+            border-radius: 5px;
+            background-color: #ffffff;
+            display: block;
+            padding: 5px 5px 10px 5px;
+            width: 100%;
+            max-width: 80px;
+            margin-top: 7px;
+            margin-left: 5px;
+            z-index: 20;
+        }
+    </style>
+-->
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window,
+            document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1760207720901101');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1760207720901101&ev=PageView&noscript=1"
+/></noscript>
+    <!-- DO NOT MODIFY -->
+    <!-- End Facebook Pixel Code -->
+</head>
+
+<body>
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/nl_NL/sdk.js#xfbml=1&version=v2.7&appId=172628652844755";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <div class="container container-full">
+        <div class="row">
+            <div class="element element-brand">
+                <div class="element-brand-container">
+                    <img class="element-brand-thumb" src="http://fruzitimeradio.com/images/LOGO-Black.png" alt="Fruzitime Radio">
+                    <div class="element-brand-text">
+                        <h1 class="element-brand-name"> Fruzitime Radio <small class="element-brand-tagline">Dutch Caribbean Interactive Station!</small></h1>
+                    </div>
+                </div>
+            </div>
+            <div class="element element-share">
+
+                <div class="row">
+                    <div class="element-share-divider">
+                        <hr>
+                    </div>
+
+
+                    <div class="wrapper">
+                        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                        <div class="addthis_responsive_sharing"></div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <iframe width="720" height="355" border="0" style="border: 0; box-shadow: 1px 1px 0  #fff;" src="https://fastcast4u.com/player/klazinam/"></iframe>
+        <div class="row">
+            <a href="#" onclick="window.open('https://fastcast4u.com/player/klazinam/', 'f4u_radio_player', 'width=750, height=450'); return false;">Open Player and continue surfing...</a>
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script></div>
+            <a target="_blank" title="Site monitoring by Uptime.com" href="https://uptime.com/devices/services/54706/53defad5311a9fb7" style="display: inline-block; width: 140px; height: 60px; margin: 0px; padding: 0px; border: 0px; overflow: hidden; background-color: transparent; font-size: 0px; line-height: 0; text-decoration: none; vertical-align: middle;"><img src="https://uptime.com/devices/services/widget/54706/72125ad88739d465/service?dark" width="140" height="60" alt="Site monitoring by Uptime.com" style="display: inline; width: 140px; height: 60px; margin: 0px; padding: 0px; border: 0px;"></a>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-6660743621433969",
+          enable_page_level_ads: true
+     });
+</script>
+
+ 
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-MWH5BF4':true});</script>
+        <script>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-2123391-11', 'auto');
+            ga('require', 'GTM-MWH5BF4');
+            ga('send', 'pageview');
+        </script>
+        <!-- Twitter universal website tag code -->
+        <script>
+            ! function(e, t, n, s, u, a) {
+                e.twq || (s = e.twq = function() {
+                        s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
+                    }, s.version = '1.1', s.queue = [], u = t.createElement(n), u.async = !0, u.src = '//static.ads-twitter.com/uwt.js',
+                    a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
+            }(window, document, 'script');
+            // Insert Twitter Pixel ID and Standard Event data below
+            twq('init', 'nxd7j');
+            twq('track', 'PageView');
+        </script>
+        <!-- End Twitter universal website tag code -->
+        <div class="element element-radiojar">
+            Copyright &#169; 2018 Fruzitime Radio. All Rights Reserved.
+            <script>
+                (function(w, d, s) {
+                    w._uptime_rum = {};
+                    w._uptime_rum.uuid = '1CZ1-FF1D59AF17DFAD5F';
+                    w._uptime_rum.url = 'https://uptime.com/rum/record-data';
+                    s = document.createElement('script');
+                    s.async = 1;
+                    s.src = 'https://uptime.com/static/rum/compiled/rum.js';
+                    d.getElementsByTagName('head')[0].appendChild(s);
+                })(window, document);
+            </script>
+        </div>
+        <!-- Hotjar Tracking Code for http://fruzitimeradio.com/ -->
+        <script>
+            (function(h, o, t, j, a, r) {
+                h.hj = h.hj || function() {
+                    (h.hj.q = h.hj.q || []).push(arguments)
+                };
+                h._hjSettings = {
+                    hjid: 214603,
+                    hjsv: 5
+                };
+                a = o.getElementsByTagName('head')[0];
+                r = o.createElement('script');
+                r.async = 1;
+                r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window, document, '//static.hotjar.com/c/hotjar-', '.js?sv=');
+        </script>
+
+</body>
+
+</html>
