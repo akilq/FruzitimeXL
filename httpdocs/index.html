@@ -45,6 +45,24 @@
     <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
     <!--<link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />-->
     <script charset="UTF-8" src="//cdn.sendpulse.com/9dae6d62c816560a842268bde2cd317d/js/push/7b0b6f2c323fdbfc882728b475f6a3b4_1.js" async type="edd9f3810cfc1a5cef4513ee-"></script>
+    <!-- Page hiding snippet (recommended)  -->
+    <style>.async-hide { opacity: 0 !important} </style>
+    <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+    h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+    (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+    })(window,document.documentElement,'async-hide','dataLayer',4000,
+    {'GTM-T4JMGJ7':true});</script>
+    <!-- Modified Analytics tracking code with Optimize plugin -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    
+        ga('create', 'UA-2123391-11', 'auto');
+        ga('require', 'GTM-T4JMGJ7');
+        ga('send', 'pageview');
+        </script>
 </head>
 
 <body class="responsive">
@@ -293,10 +311,8 @@
                     <div class="divider-lg"></div>
                     <div class="row">
                         <div class="col-sm-6 col-lg-4">
-                            <h2><span class="icon flaticon-audio36 color"></span>Top 5</h2>
-                            
-                                <div class="rk_widget_top_tracks" data-idradio="159256" data-nbtracks="5" ></div>
-                                                    
+                            <h2><span class="icon flaticon-audio36 color"></span>Top 5 Tracks</h2>
+                            <div class="rk_widget_top_tracks" data-idradio="159256" data-nbtracks="5" ></div>
                         </div>
                         <div class="col-sm-12 col-lg-8">
                             <h2><span class="icon flaticon-movie29 color"></span>PROMO VIDEO</h2>
@@ -511,18 +527,6 @@
                 <script src="js/jquery.form.js"></script>
                 <script src="js/jquery.validate.min.js"></script>
                 <script src="js/liveradio.js"></script>
-                <!-- Global site tag (gtag.js) - Google Analytics -->
-                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2123391-11"></script>
-                <script>
-                    window.dataLayer = window.dataLayer || [];
-
-                    function gtag() {
-                        dataLayer.push(arguments);
-                    }
-                    gtag('js', new Date());
-
-                    gtag('config', 'UA-2123391-11');
-                </script>
 
                 <script>
                     (function(w, d, s) {
