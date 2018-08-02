@@ -21,8 +21,8 @@
     <meta name="twitter:image" content="//fruzitimeradio.com/images/Fotolia_19623121_Subscription_XXL-940x529.jpg" />
     <meta name="twitter:site" content="@fruzitime" />
     <meta name="google-site-verification" content="jX-DTtpZaL97NAXAMAdK4y1OR-pgojMWLjn-V4Bz9xk" />
+    <meta name="robots" content="noindex">
     <title>Feel the music and feel at HOME, It's Fruzitime!</title>
-    <link rel="dns-prefetch" href="//sendpulse.com/">
     <link rel="dns-prefetch" href="//googleapis.com/">
     <link rel="dns-prefetch" href="//cloudflare.com/">
     <link rel="dns-prefetch" href="//nobexpartners.com">
@@ -45,7 +45,6 @@
     <link href="fonts/flaticon-liveradio/flaticon.css" rel="stylesheet">
     <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
     <!--<link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />-->
-    <script charset="UTF-8" src="//cdn.sendpulse.com/9dae6d62c816560a842268bde2cd317d/js/push/7b0b6f2c323fdbfc882728b475f6a3b4_1.js" async type="edd9f3810cfc1a5cef4513ee-"></script>
     <!-- Page hiding snippet (recommended)  -->
     <style>
         .async-hide {
@@ -86,6 +85,16 @@
         ga('create', 'UA-2123391-11', 'auto');
         ga('require', 'GTM-T4JMGJ7');
         ga('send', 'pageview');
+    </script>
+    <link rel="manifest" href="/manifest.json" />
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+        var OneSignal = window.OneSignal || [];
+        OneSignal.push(function() {
+            OneSignal.init({
+                appId: "c030d816-b6c3-4cf4-928b-f18c2f35ebd0",
+            });
+        });
     </script>
 </head>
 
