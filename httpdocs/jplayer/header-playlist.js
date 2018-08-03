@@ -7,7 +7,7 @@ $(document).ready(function(){
 		{
 			artist:"",
 			title:"Fruzitime Radio",
-			mp3: 'https://listen.shoutcast.com/fruzitimeradiocuracao'
+			mp3: 'https://www.radioking.com/play/fruzitime-radio'
 		},
 
 	], {
