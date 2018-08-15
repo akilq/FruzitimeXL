@@ -279,7 +279,7 @@
                                 </div>
                                 <div class="text-float-right">
                                     <div class="inside">
-                                        <h3 class="upper">24/7 Online</h3>
+                                        <h3 class="upper">Non-stop Ritmo Kombina</h3>
                                         <p>www.fruzitimeradio.com</p>
                                     </div>
                                 </div>
@@ -306,7 +306,7 @@
                                 <div class="text-float-right">
                                     <div class="inside">
                                         <h3 class="upper">On Demand</h3>
-                                        <p>Radio Podcasts</p>
+                                        <p>Radio Podcasts (Coming Soon)</p>
                                     </div>
                                 </div>
                             </div>
@@ -375,7 +375,7 @@
                                 <div class="inside">
                                     <h3>About <span class="color">FRUZITIME RADIO</span></h3>
                                     <p><img src="images/liveradio/about-img.png" alt="" class="img-left" /> <strong>More than 10 years ago, Akil Quirindongo had a hobby that turned into a vision..</strong></p>
-                                    <p>During the online music sharing boom of the early 2000s, he thought of a way to bring Caribbean music into the homes of people who were missing their islands.<br>
+                                    <p>During the online music sharing boom of the early 2000s, he thought of a way to bring Caribbean music,"Ritmo Kombina", into the homes of people who were missing their islands.<br>
                                     </p>
                                     <p>At the same time, he wondered if he could pull off other music genres as well. He could, and he did. </p>
                                 </div>
@@ -564,6 +564,32 @@
             <!-- Go to www.addthis.com/dashboard to customize your tools -->
             <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-566e06132e4b7ad6"></script>
             <script type="text/javascript" src="https://www.radioking.com/widgets/top-tracks/script.min.js"></script>
+            <script type='text/javascript' data-cfasync='false'>
+                window.purechatApi = {
+                    l: [],
+                    t: [],
+                    on: function() {
+                        this.l.push(arguments);
+                    }
+                };
+                (function() {
+                    var done = false;
+                    var script = document.createElement('script');
+                    script.async = true;
+                    script.type = 'text/javascript';
+                    script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript';
+                    document.getElementsByTagName('HEAD').item(0).appendChild(script);
+                    script.onreadystatechange = script.onload = function(e) {
+                        if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) {
+                            var w = new PCWidget({
+                                c: '3e974f25-8ade-401e-8e3a-589cfeda99b1',
+                                f: true
+                            });
+                            done = true;
+                        }
+                    };
+                })();
+            </script>
 </body>
 
 </html>
