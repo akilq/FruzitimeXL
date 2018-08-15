@@ -14,7 +14,6 @@
     <meta property="og:site_name" content="Fruzitime Radio!">
     <meta property="og:description" content="This is a place where you&#39;ll feel at home, no matter where you are in the world!">
     <meta property="og:image" content="//fruzitimeradio.com/images/cache/5a2495189c29cb1db3ed852a180f8914_w450_h260_cp.jpg" />
-    <meta property="og:site_name" content="Fruzitime Radio" />
     <meta property="og:audio" content="https://www.radioking.com/play/fruzitime-radio" />
     <meta property="fb:app_id" content="172628652844755" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -564,30 +563,16 @@
             <!-- Go to www.addthis.com/dashboard to customize your tools -->
             <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-566e06132e4b7ad6"></script>
             <script type="text/javascript" src="https://www.radioking.com/widgets/top-tracks/script.min.js"></script>
-            <script type='text/javascript' data-cfasync='false'>
-                window.purechatApi = {
-                    l: [],
-                    t: [],
-                    on: function() {
-                        this.l.push(arguments);
-                    }
-                };
+            <!-- Flyzoo script v3 -->
+            <script type="text/javascript">
                 (function() {
-                    var done = false;
-                    var script = document.createElement('script');
-                    script.async = true;
-                    script.type = 'text/javascript';
-                    script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript';
-                    document.getElementsByTagName('HEAD').item(0).appendChild(script);
-                    script.onreadystatechange = script.onload = function(e) {
-                        if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) {
-                            var w = new PCWidget({
-                                c: '3e974f25-8ade-401e-8e3a-589cfeda99b1',
-                                f: true
-                            });
-                            done = true;
-                        }
-                    };
+                    window._FlyzooApplicationId = "5b74ad44bb547e11688d3a9f5b74ad04bb547e3944cfb47e";
+                    var fz = document.createElement('script');
+                    fz.type = 'text/javascript';
+                    fz.async = true;
+                    fz.src = '//widget.flyzoo.co/scripts/flyzoo.start.js';
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(fz, s);
                 })();
             </script>
 </body>
