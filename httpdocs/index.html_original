@@ -8,7 +8,7 @@
 <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This is a place where you'll feel at home, no matter where you are in the world.">
-    <meta property="og:title" content="Fruzitime Radio">
+    <meta property="og:title" content="Fruzitime Radio: Home of Ritmo Kombina!">
     <meta property="og:type" content="music.radio_station">
     <meta property="og:url" content="https://fruzitimeradio.com">
     <meta property="og:site_name" content="Fruzitime Radio!">
@@ -20,8 +20,7 @@
     <meta name="twitter:image" content="//fruzitimeradio.com/images/Fotolia_19623121_Subscription_XXL-940x529.jpg" />
     <meta name="twitter:site" content="@fruzitime" />
     <meta name="google-site-verification" content="jX-DTtpZaL97NAXAMAdK4y1OR-pgojMWLjn-V4Bz9xk" />
-    <meta name="robots" content="index, follow">
-    <title>Feel the music and feel at HOME, It's Fruzitime!</title>
+    <title>Fruzitime Radio: Home of Ritmo Kombina!</title>
     <link rel="dns-prefetch" href="//googleapis.com/">
     <link rel="dns-prefetch" href="//cloudflare.com/">
     <link rel="dns-prefetch" href="//nobexpartners.com">
@@ -30,11 +29,11 @@
     <link rel="shortcut icon" href="fav.png" type="image/png">
     <link rel="manifest" href="/manifest.json">
     <!-- CSS preloader -->
-    <link href="css/loader.css" rel="stylesheet">
+    <link href="https://cdn.fruzitimeradio.com/css/loader.css" rel="stylesheet">
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.fruzitimeradio.com/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="css/liveradio-template.css" rel="stylesheet">
+    <link href="https://cdn.fruzitimeradio.com/css/liveradio-template.css" rel="stylesheet">
     <!-- CSS modules -->
     <!-- CSS modules -->
     <link href="https://cdn.fruzitimeradio.com/css/flexslider.css" rel="stylesheet">
@@ -115,8 +114,7 @@
             </li>
             <li><span class="name"><a href="schedule.html">Schedule</a></span></li>
             <li><span class="name"><a href="faq.html">FAQ</a></span></li>
-            <li><span class="name"><a href="https://gogetfunding.com/gofundfruzitime/ target=_blank">Donate</a></span></li>
-
+            <li><span class="name"><a href="https://gogetfunding.com/gofundfruzitime/ target=_blank"rel="noopener">Donate</a></span></li>
         </ul>
     </nav>
     <!-- //end Off Canvas Menu -->
@@ -139,8 +137,39 @@
                             </div>
                             <!-- //end Logo -->
                             <div id="top-player">
-                                <iframe src="https://www.radioking.com/widgets/player/player.php?id=159256&c=%23f10061&c2=%23FFFFFF&ii=&p=1&pp=1&i=1&eq=1&po=1&t=1&f=h&v=2&s=1&li=1&h=145&l=470&a=1&plc=1&popup=1" name="idFrame" id="idFrame" style="border-radius: 5px; width:470px;height:145px; min-width: 470px;-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3);-moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3);box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3);"
-                                    frameBorder="0"></iframe>
+                                <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+                                <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+                                    <div class="jp-type-playlist">
+                                        <div id="openPlaylist">
+                                            <a href="#0" class="playlist-toggle"> <span></span> <span></span> <span></span> </a>
+                                        </div>
+                                        <div class="jp-gui jp-interface">
+                                            <div class="jp-details">
+                                                <div class="inside"> <span class="jp-title" aria-label="title">&nbsp;</span> <span class="jp-artist" aria-label="artist">&nbsp;</span> </div>
+                                            </div>
+                                            <div class="jp-controls">
+                                                <div class="jp-play-wrap">
+                                                    <div class="jp-play" role="button">
+                                                        <div class="jp-play-front"></div>
+                                                        <div class="jp-play-back"> </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="jp-volume-controls">
+                                                <button class="jp-mute" role="button" tabindex="0">mute</button>
+                                                <div class="jp-volume-bar">
+                                                    <div class="jp-volume-bar-value"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="jp-playlist" id="playlist">
+                                            <ul>
+                                                <li>&nbsp;</li>
+                                            </ul>
+                                        </div>
+                                        <div class="jp-no-solution"> <span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>. </div>
+                                    </div>
+                                </div>
                             </div>
                             <!-- Search -->
                             <form class="navbar-search form-inline visible-lg visible-md pull-right" role="form">
@@ -156,20 +185,20 @@
                                 <dt class="item"> <a href="index.html" class="btn-main"><span class="icon flaticon-home"></span></a> </dt>
                                 <dd></dd>
                                 <dt class="item">
-                <ul class="sf-menu">
-                  <li> <a href="djs.html">Djs</a>
-                    <ul>
-                      <li><a href="#">DJ Akil</a></li>
-                      <li><a href="#">DJ Fai-OZ</a></li>
-                      <li><a href="#">DJ Supreme</a></li>
-                    </ul>
-                  </li>
+            <ul class="sf-menu">
+              <li> <a href="djs.html">Djs</a>
+                <ul>
+                  <li><a href="#">DJ Akil</a></li>
+                  <li><a href="#">DJ Fai-OZ</a></li>
+                  <li><a href="#">DJ Supreme</a></li>
                 </ul>
-              </dt>
+              </li>
+            </ul>
+          </dt>
                                 <dd></dd>
-                                <dt class="item"> <a href="https://in.hotjar.com/s?siteId=214603&surveyId=16376" target="_blank"class="btn-main">Feedback</a> </dt>
+                                <dt class="item"> <a href="https://in.hotjar.com/s?siteId=214603&surveyId=16376" target="_blank" rel="noopener"class="btn-main">Feedback</a> </dt>
                                 <dd></dd>
-                                <dt class="item"> <a href="https://gogetfunding.com/gofundfruzitime" target="_blank" class="btn-main">Donate</a> </dt>
+                                <dt class="item"> <a href="https://gogetfunding.com/gofundfruzitime" target="_blank"rel="noopener" class="btn-main">Donate</a> </dt>
                                 <dd></dd>
                             </dl>
                             <!-- //end Main menu -->
@@ -251,7 +280,7 @@
                                 <div class="text2 pull-right"><span>Live music from Curacao</span><span class="text4">Summertime</span></div>
                         </li>
                 </ul>
-                <a href="#gallery.html" class="scroll-down animate-move-down"> <span class="icon flaticon-down-open-big"></span> scroll to view content </a>
+                <a href="https://in.hotjar.com/s?siteId=214603&surveyId=16376" class="scroll-down animate-move-down"> <span class="icon flaticon-down-open-big"></span> scroll to view content </a>
                 </div>
 
                 <!-- //end Slider -->
@@ -374,7 +403,7 @@
                                 <div class="inside">
                                     <h3>About <span class="color">FRUZITIME RADIO</span></h3>
                                     <p><img src="images/liveradio/about-img.png" alt="" class="img-left" /> <strong>More than 10 years ago, Akil Quirindongo had a hobby that turned into a vision..</strong></p>
-                                    <p>During the online music sharing boom of the early 2000s, he thought of a way to bring Caribbean music, "Ritmo Kombina", into the homes of people who were missing their islands.<br>
+                                    <p>During the online music sharing boom of the early 2000s, he thought of a way to bring Caribbean music,"Ritmo Kombina",into the homes of people who were missing their islands.<br>
                                     </p>
                                     <p>At the same time, he wondered if he could pull off other music genres as well. He could, and he did. </p>
                                 </div>
@@ -415,7 +444,7 @@
                                             width: 350px;
                                         }
                                         /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
                                     </style>
                                     <div id="mc_embed_signup">
                                         <form action="https://fruzitime.us2.list-manage.com/subscribe/post?u=9daf59e403893443bad575b73&amp;id=3e0ff96843" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -464,10 +493,10 @@
                                         <h4>Information<a class="expander visible-xs" href="#TabBlock-3">+</a></h4>
                                         <div class="tabBlock" id="TabBlock-3">
                                             <ul class="menu">
-                                                <li><a href="#">About Us</a></li>
-                                                <li><a href="https://gogetfunding.com/gofundfruzitime" target="_blank" />Donate</a>
+                                                <li><a href="">About Us</a></li>
+                                                <li><a href="https://gogetfunding.com/gofundfruzitime" target="_blank" rel="noopener" />Donate</a>
                                                 </li>
-                                                <li><a href="https://form.jotformeu.com/72152836984365" target="_blank">Submit Music</a></li>
+                                                <li><a href="https://form.jotformeu.com/72152836984365" target="_blank" rel="noopener">Submit Music</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -509,10 +538,9 @@
 
                 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
                 <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
-                <!--<script src="js/jquery-1.10.2.min.js"></script> -->
+<script src="js/html5shiv.js"></script>
+<script src="js/respond.min.js"></script>
+<![endif]-->
                 <!--<script src="js/jquery-1.10.2.min.js"></script> -->
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
@@ -532,6 +560,7 @@
                 <script src="https://cdn.fruzitimeradio.com/js/jquery.form.js"></script>
                 <script src="https://cdn.fruzitimeradio.com/js/jquery.validate.min.js"></script>
                 <script src="https://cdn.fruzitimeradio.com/js/liveradio.js"></script>
+
                 <script>
                     (function(w, d, s) {
                         w._uptime_rum = {};
@@ -564,7 +593,6 @@
             <!-- Go to www.addthis.com/dashboard to customize your tools -->
             <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-566e06132e4b7ad6"></script>
             <script type="text/javascript" src="https://www.radioking.com/widgets/top-tracks/script.min.js"></script>
-
             <!-- Flyzoo script v3 -->
             <script type="text/javascript">
                 (function() {
@@ -578,5 +606,6 @@
                 })();
             </script>
 </body>
+
 
 </html>
