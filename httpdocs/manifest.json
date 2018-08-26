@@ -1,4 +1,20 @@
 {
-  "gcm_sender_id": "482941778795",
-  "gcm_sender_id_comment": "Do not change the GCM Sender ID"
+    "short_name": "Fruzitime",
+    "name": "Fruzitime Radio",
+    "icons": [{
+            "src": "/images/icons-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/images/icons-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#f10061"
 }
