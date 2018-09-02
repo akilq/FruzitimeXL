@@ -189,7 +189,14 @@
                             </div>
                             <div class="nav-item item-04"><a href="#"><span class="icon flaticon-search"></span></a>
                                 <div class="tab-content">
-
+                                    <!-- Search -->
+                                    <form class="navbar-search form-inline" role="form">
+                                        <div class="form-group">
+                                            <button type="submit" class="button"><span class="flaticon-search"></span></button>
+                                            <input type="text" class="form-control" value="Search" onblur="if (this.value == '') {this.value = 'Search';}" onfocus="if(this.value == 'Search') {this.value = '';}">
+                                        </div>
+                                    </form>
+                                    <!-- //end Search -->
                                 </div>
                             </div>
                         </div>
@@ -524,6 +531,7 @@
                 <script src="https://cdn.fruzitimeradio.com/jplayer/jplayer.playlist.js"></script>
                 <script src="https://cdn.fruzitimeradio.com/jplayer/header-playlist.js"></script>
                 <script src="https://cdn.fruzitimeradio.com/jplayer/top10-playlist.js"></script>
+                <script src="https://cdn.fruzitimeradio.com/js/jquery.validate.min.js"></script>
                 <script src="https://cdn.fruzitimeradio.com/js/liveradio.js"></script>
                 <script>
                     (function(w, d, s) {
@@ -557,19 +565,6 @@
             <!-- Go to www.addthis.com/dashboard to customize your tools -->
             <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-566e06132e4b7ad6"></script>
             <script type="text/javascript" src="https://www.radioking.com/widgets/top-tracks/script.min.js"></script>
-
-            <!-- Flyzoo script v3 -->
-            <script type="text/javascript">
-                (function() {
-                    window._FlyzooApplicationId = "5b74ad44bb547e11688d3a9f5b74ad04bb547e3944cfb47e";
-                    var fz = document.createElement('script');
-                    fz.type = 'text/javascript';
-                    fz.async = true;
-                    fz.src = '//widget.flyzoo.co/scripts/flyzoo.start.js';
-                    var s = document.getElementsByTagName('script')[0];
-                    s.parentNode.insertBefore(fz, s);
-                })();
-            </script>
             <!-- Begin SpeakPipe code -->
             <script type="text/javascript">
                 (function(d) {
